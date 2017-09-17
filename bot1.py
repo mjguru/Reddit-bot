@@ -1,18 +1,19 @@
-#Before running this :
-#
-#create a praw.ini file with the following format:
-#[bot]
-#client_id = 
-#client_secret = 
-#password = 
-#username = 
+'''
+Before running this :
+
+create a praw.ini file with the following format:
+[bot]
+client_id = 
+client_secret = 
+password = 
+username = 
 
 import praw
 import re
 import pdb
 import time
 import os
-
+'''
 # all the words that you want to check
 flagged_words = ["other", "edit", "all"]
 
